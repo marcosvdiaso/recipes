@@ -14,9 +14,18 @@ h1{
 
 body{
     background: linear-gradient(180deg, #E6D391, #E6DD91);
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    /* Style rules for screens with a width of less than 768px */
+    .conteudo {
+      width: 50%;
+      height: 50%;
+      font-size: 0.5em;
+    }
+  }
 
 ol {
     list-style-position: inside;
